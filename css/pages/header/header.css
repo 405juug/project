@@ -1,0 +1,40 @@
+.header{
+    padding: 24px 42px;
+    font-family: sans-serif;
+    color: var(--carbon-fiber);
+    line-height: 1.5;
+}
+
+.header__container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu__list{
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+}
+
+.menu__item{
+    color: inherit;
+}
+
+.menu__link{
+    color: inherit;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.menu__link:visited, menu__link:focus{
+    color:  var(--carbon-fiber);
+}
+
+.menu__link:hover{
+    border-bottom: 1px solid var(--carbon-fiber);
+}
+
+.header__logo{
+    font-weight: 600;
+    font-size: 20px;
+}
